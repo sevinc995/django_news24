@@ -4,4 +4,4 @@ from .models import NewsCore
 class NewsCoreSerializer(serializers.ModelSerializer):
     class Meta:
         model = NewsCore
-        fields = ['id', 'title', 'descroption', 'image']
+        fields = ['id', 'title', 'description', 'image']
